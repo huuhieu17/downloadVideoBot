@@ -84,6 +84,22 @@ bot.onText(/tiktok.com/, (msg, match) => {
   }
 })
 
+// on message
+bot.on("message", async (msg) => {
+    var messageId = msg.message_id;
+    if (msg.text) {
+      const text = msg.text.trim();
+      const chatId = msg.chat.id;
+
+      //start
+      if (text.startsWith("/start")) {
+        bot.sendMessage(chatId, "Xin chào \n OK", {
+          reply_to_message_id: msg.message_thread_id
+        });
+      }
+    }
+})
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
