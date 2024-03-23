@@ -1,0 +1,28 @@
+{
+  "name": "downloadvideobot",
+  "version": "1.0.0",
+  "description": "Telegram bot download video from tiktok, facebook, instagram, ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuhieu17/downloadVideoBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "download",
+    "video"
+  ],
+  "author": "huuhieu17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huuhieu17/downloadVideoBot/issues"
+  },
+  "homepage": "https://github.com/huuhieu17/downloadVideoBot#readme",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
